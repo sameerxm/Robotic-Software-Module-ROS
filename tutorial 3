@@ -13,7 +13,7 @@ cd ~/ros2_ws/src/
 #download the packages to the src folder
 
 tar -zxvf basics.tar.gz
-tar -zxvf basics_interfaces.tar.g
+tar -zxvf basics_interfaces.tar.gz
 
 cd ~/ros2_ws
 colcon build --packages-select basics basics_interfaces
