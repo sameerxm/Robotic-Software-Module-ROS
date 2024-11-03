@@ -1,0 +1,18 @@
+source /opt/ros/iron/setup.bash
+sudo apt install python3-colcon-common-extensions
+
+mkdir ~/ros2_ws
+mkdir ~/ros2_ws/src
+
+cd ~/ros2_ws
+colcon build
+
+source ~/ros2_ws/install/setup.bash
+
+tar -zxvf basics.tar.gz
+tar -zxvf basics_interfaces.tar.g
+
+cd ~/ros2_ws
+colcon build --packages-select basics basics_interfaces
+
+source ~/ros2_ws/install/setup.bash
