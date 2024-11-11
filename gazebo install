@@ -19,6 +19,6 @@ sudo apt install ros-iron-ros-gz
 ign gazebo --version
 
 #additional packages
-sudo apt-get install -y ros-iron-ros-ign-bridge ros-iron-navigation2
-ros-iron-nav2-bringup ros-iron-gz-ros2-control ros-iron-ros2-control
-ros-iron-ros2-controllers
+sudo apt-get install -y ros-iron-ros-ign-bridge ros-iron-navigation2 ros-iron-nav2-bringup ros-iron-gz-ros2-control ros-iron-ros2-control ros-iron-ros2-controllers
+
+
