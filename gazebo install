@@ -1,0 +1,24 @@
+#ubuntu update
+sudo apt-get update
+sudo apt-get dist-upgrade -y
+sudo apt install python3-rosdep
+sudo rosdep init
+rosdep update
+
+#get environment
+sudo sh -c 'echo "deb [arch=$(dpkg --print-architecture)]
+http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" >
+/etc/apt/sources.list.d/ros2-latest.list'
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc |
+sudo apt-key add -
+sudo apt-get update
+
+sudo apt install ros-iron-ros-gz
+
+#check installation
+ign gazebo --version
+
+#additional packages
+sudo apt-get install -y ros-iron-ros-ign-bridge ros-iron-navigation2
+ros-iron-nav2-bringup ros-iron-gz-ros2-control ros-iron-ros2-control
+ros-iron-ros2-controllers
