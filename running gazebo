@@ -1,0 +1,21 @@
+#Terminal setup
+
+source /opt/ros/iron/setup.bash
+
+cd ~/ros2_ws
+#can change below packages to necessary ones
+#colcon build --packages-select basics basics_interfaces
+colcon build
+source ~/ros2_ws/install/setup.bash
+cd ..
+
+#Terminal 1
+cd ~/ros2_ws/src/rosbot_bath_ros2
+./run_rosbot.sh 
+
+#Terminal 2
+cd ~/ros2_ws/src/rosbot_bath_ros2
+./run_rviz.sh
+
+#Terminal 3 - 'drive'
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
