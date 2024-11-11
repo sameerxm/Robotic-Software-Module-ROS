@@ -2,6 +2,6 @@ source /opt/ros/iron/setup.bash
 
 cd ~/ros2_ws
 #can change below packages to necessary ones
-colcon build --packages-select basics basics_interfaces
-
+#colcon build --packages-select basics basics_interfaces
+colcon build
 source ~/ros2_ws/install/setup.bash
