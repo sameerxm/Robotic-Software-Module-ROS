@@ -5,3 +5,4 @@ cd ~/ros2_ws
 #colcon build --packages-select basics basics_interfaces
 colcon build
 source ~/ros2_ws/install/setup.bash
+cd ..
