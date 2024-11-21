@@ -1,0 +1,16 @@
+alt-shift-return add a new terminal pane to the window
+alt-j move the focus (where you are typing) to the next pane, going clockwise
+alt-k move the focus anticlockwise
+alt-return move the focus to the top-left pane (the ‘master pane’)
+alt-space toggle the arrangement of all terminal windows
+(1) one terminal takes up half the screen horizontally
+(2) takes half vertically
+(3) the window you have in focus fills the whole screen.
+alt-shift-k swap the position of the currently focused pane with its clockwise neighbour
+alt-shift-j swap focus pane with anticlockwise neighbour 
+EE50237 ROBOTICS SOFTWARE PRACTICAL WORK
+L A B 2 P a g e 5 | 5
+alt-, (comma) change the arrangement so all windows are the same size split horizontally,
+or split vertically,
+or distributed into approximately equal area rectangles.
+alt-. (full stop) the reverse of alt-, 
