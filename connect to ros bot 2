@@ -1,4 +1,4 @@
-ssh husarion@{ipaddress} 
+ssh husarion@{138.38.228.172} 
 #on laptop terminal to connect
 
 #get ip using ifconfig on bot. un: husarion pw: husarion
